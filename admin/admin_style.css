@@ -1,0 +1,108 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	background-color: skyblue
+}
+
+.container
+{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#head
+{
+	margin: auto;
+	width: 1000px;
+	height: 150px;
+	border-bottom : 4px solid brown;
+}
+
+#content
+{
+	width: 800px;
+	height: 600px;
+	background-color: white;
+	float: right;
+}
+
+#sidebar
+{
+	width: 200px;
+	height: 600px;
+	background-color: gray;
+	float: left;	
+}
+
+#menu
+{
+	line-height: 30px;
+	padding: 0;
+}
+#menu li 
+{
+	list-style: none;
+	display: block;
+	margin-left: 20px;
+	padding: 10px;
+}
+#menu a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	margin: 10px;
+}
+#menu a:hover
+{
+	color: brown;
+	text-decoration: underline;
+}
+#sidebar h2{text-decoration: underline; margin-left: 5px;}
+
+#f input
+{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	margin-bottom: 2px;
+}
+#f textarea
+{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	margin-bottom: 2px;
+}
+#f select
+{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	margin-bottom: 2px;
+}
+#f input:hover
+{
+	background-color: #BEBBB3;
+}
+#f textarea:hover
+{
+	background-color: #BEBBB3;
+}
+#f select:hover
+{
+	background-color: #BEBBB3;
+}
+
+#foot
+{
+	width: 1000px;
+	height: 50px;
+	/*background-color: black;*/
+	clear: both;
+}

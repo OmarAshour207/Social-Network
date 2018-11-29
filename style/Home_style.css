@@ -1,0 +1,334 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	line-height: 1;
+	background-color: #f9f9f9;
+}
+.container
+{
+	margin: 0 auto;
+	padding: 0;
+	background-color: #E6E6FA;
+}
+#head_wrap
+{
+	width: 100%;
+	height: 35px;
+	margin: 0 auto;
+	border-bottom: 2px solid brown;
+	padding: 10px;
+	background-color: #3b5998;
+}
+#header
+{
+	margin: 0 auto;
+	width: 1000px;
+	height: 35px;
+}
+#menu
+{
+	line-height: 35px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+#menu li
+{
+	display: inline;
+	list-style: none;
+}
+#menu a
+{
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+#menu a:hover
+{
+	color: brown;
+	text-decoration: underline;
+}
+#header strong
+{
+	text-decoration: underline;
+	
+}
+#form1
+{
+	float: right;
+	line-height: 35px;
+	padding-top: 3px;
+}
+#form1 input[type="text"]
+{
+	/*border-radius: 5px;*/
+	width: 250px;
+	/*height: 15px;*/
+	padding: 5px;
+}
+#form1 input[type="submit"]
+{
+	width: 100px;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: bold;
+}
+.container .content
+{
+	width: 1000px;
+	margin: 0 auto;
+}
+#user_timeline
+{
+	background: #AFEEEE;
+	width: 250px;
+	float: left;
+	height: 633px;
+}
+#user_details
+{
+	padding: 10px;
+	margin: 5px;
+}
+#user_details img
+{
+	border: 2px solid black;
+	border-radius: 20px;
+}
+#user_details p 
+{
+	margin-bottom: 5px;
+	padding: 5px;
+}
+#user_details a
+{
+	color: brown;
+	text-decoration: none;
+}
+#user_details a:hover
+{
+	text-decoration: underline;
+}
+#user_mention
+{
+	border-radius: 20px;
+	background-color: #E6E6FA;
+	border: 2px solid black;
+	width: 220px;
+	margin: 5px auto;
+}
+#content_timeline
+{
+	float: right;
+	width: 700px;
+	padding: 10px
+}
+#f input
+{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	margin-bottom: 2px;
+}
+#f textarea
+{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	margin-bottom: 2px;
+}
+#f select
+{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	margin-bottom: 2px;
+}
+#f input:hover
+{
+	background-color: #BEBBB3;
+}
+#f textarea:hover
+{
+	background-color: #BEBBB3;
+}
+#f select:hover
+{
+	background-color: #BEBBB3;
+}
+#f h2
+{
+	color: gray;
+	font-family: 
+}
+#footer
+{
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	background-color: #1E90FF;
+	border-top: 5px solid blue;
+	clear: both;
+}
+#footer h2
+{
+	text-align: center;
+	padding-top: 3px;
+	color: white;
+}
+
+#pagination
+{
+	margin-top: 20px;
+}
+#pagination a
+{
+	color: blue;
+	text-decoration: none;
+	font-size: 18px;
+	margin: 5px;
+}
+#pagination a:hover
+{
+	color: brown;
+	text-decoration: underline;
+}
+#posts button
+{
+	float: right;
+}
+#posts
+{
+	width: 600px;
+	background-color: #AFEEEE;
+	padding: 10px;
+	line-height: 20px;
+}
+#posts img
+{
+	float: left;
+	padding: 5px 10px 0 0;
+}
+#posts h3
+{
+	color: brown;
+}
+
+#reply textarea
+{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+#reply input
+{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+
+}
+#comments
+{
+	width: 610px;
+	background: #5F9EA0;
+	padding: 5px;
+	border-bottom: 1px solid #F0FFF0;
+}
+#comments h3
+{
+	color: #FFD700;
+}
+#content_timeline .ff input
+{
+	text-align: center;
+	/*width: 600px;*/
+	margin: 3px;
+}
+#content_timeline .ff input[type="file"]
+{
+	width: 180px;
+}
+
+#user_profile
+{
+	padding: 10px;
+	margin-left: 50px;
+	background: #FFB6C1;
+	height: 300px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+#user_profile img
+{
+	border: 2px solid gray;
+	float: right;
+}
+#user_profile p { margin: 5px; }
+#user_profile button 
+{
+	margin-top: 10px;
+	font-weight: bold;
+}
+#user_profile h3 {  color: blue; }
+#messages
+{
+	padding: 10px;
+	line-height: 20px;
+	background: pink;
+	margin: 0 auto;
+}
+#messages th
+{
+	border: 2px solid pink;
+	background: white;
+}
+#messages table, td
+{
+	padding: 7px;
+}
+#messages a
+{
+	text-decoration: none;
+	font-size: 18px;
+}
+#messages a:hover
+{
+	text-decoration: underline;
+}

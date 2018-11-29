@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body 
+{
+	margin: 0 auto;
+	background-image: url("../images/wood-3219267_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	line-height: 1;
+	background-color: #E6E6FA;
+}
+.Iform
+{
+	height: 400px;
+	width: 500px;
+	padding-top: 200px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 4px;
+	line-height: 70px;
+}
+.Iform input
+{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	border-radius: 5px;
+}
+.Iform button
+{
+	width: 100px;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.Iform a
+{
+	color: white;
+	text-decoration: none;
+}
+.Iform a:hover
+{
+	text-decoration: underline;
+}
+.signup form 
+{
+	height: 500px;
+	width: 500px;
+	padding-top: 200px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 4px;
+	line-height: 55px;
+}
+.signup form #first,#second
+{
+	height: 25px;
+	width: 180px;
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin: 7px;
+	padding: 10px;
+	border-radius: 5px
+}
+.signup form input[type=password] , #mail
+{
+	height: 30px;
+	width: 400px;
+	font-size: 18px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+.signup form input[type=date] , select
+{
+	width: 400px;
+	height: 30px;
+	border: solid 1px #FFF;
+	border-radius: 5px;
+}
+.signup form  input[type="radio"]
+{
+	width: 30px;
+}
+.signup form .Login-btn
+{
+	padding: 15px 25px;
+	color:black;
+	background-color: 2ECC71;
+	border-radius: 5px;
+	height:50px;
+	width: 35%;
+	margin-bottom: 10px;
+	font-size: 20px
+}
+.signup form a
+{
+	color: white;
+	text-decoration: none;
+}
+.signup form a:hover
+{
+	text-decoration: underline;
+}

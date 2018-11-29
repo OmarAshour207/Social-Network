@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #f9f9f9;
+	height: 600px;
+}
+/*container == header    head_wrap == container    header == login   no form1*/
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: #3b5998;
+}
+#head_wrap{
+    width: 75%;
+    height: 120px;
+   margin: 0 auto;
+   /*padding-bottom: 30px;*/
+}
+.title h1{
+	padding-top: 20px;
+    color: #fff;
+    font-size: 40px;
+}
+.title{
+    float: left;
+    width: 50%;
+}
+#header{
+    width: 50%;
+    float: right;
+}
+.email , .password{
+    float: left;
+    margin: 20px 10px;
+    color: #fff;
+    font-size: 12px;
+}
+.email{
+    margin-left: 40px;
+}
+#header input{
+    margin-top: 5px;
+    height: 22px;
+    padding-left: 5px;
+    margin-bottom: 5px;    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline
+}
+.container #head_wrap #header input[type="submit"]{
+    margin: 39px 0;
+    background-color: #081d7b;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    border:none;
+    height: 22px;
+}
+
+
+.inside{
+    float: left;
+    width: 50%;
+    color: #0b055b;
+}
+
+.signup{
+	padding: 30px 30px 130px 30px;
+    float: left;
+    width: 50%;
+    /*padding-left: 40px;*/
+    box-sizing: border-box;
+}
+
+.signup h1 , .signup h3{
+    margin: 3px;
+    color: #565656
+}
+
+.signup form #first{
+    float: left;
+    width: 45%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 35px;
+}
+.signup form #second{
+    float: right;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 35px;
+}
+.signup form input[type=password] , #mail{
+    width: 99%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.signup form input[type=password]{
+    margin-bottom: 10px;
+}
+.signup form input{
+    font-size: 18px;
+    padding-left: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder{
+    color : #bbb;
+}
+select{
+    height: 30px;
+    outline: none;
+    margin-right: 1px;
+}
+
+.signup form input[type=radio]{
+    height: 19px;
+    width: 25px;
+    margin-top: 15px;
+}
+
+.signup form p{
+    color: #565656;
+}
+
+.signup form input[type="submit"]{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #1c6f05;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.signup form input[type="submit"]:hover{
+    background-color: #2d9f0d;
+}
+#footer 
+{
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	background: #1E90FF;
+	border-top: 1px solid #3B5998;
+	clear: both;
+}
